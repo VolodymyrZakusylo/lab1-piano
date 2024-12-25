@@ -1,0 +1,17 @@
+.piano-key {
+    width: 70px;
+    height: 250px;
+    margin: 1px;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+}
+
+.piano-key.active {
+    background-color: grey;
+}
