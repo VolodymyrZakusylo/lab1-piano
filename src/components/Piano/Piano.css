@@ -1,0 +1,14 @@
+.piano {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.note-label {
+    position: absolute;
+    bottom: 25px;
+    font-size: 25px;
+    color: black;
+}

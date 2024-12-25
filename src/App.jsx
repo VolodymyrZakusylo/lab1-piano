@@ -1,9 +1,9 @@
 import React from "react";
-
+import { Piano } from "./components/Piano/Piano";
 
 function App() {
   return (
-  <h1>Lab1 Piano</h1>
+  <Piano />
   );
 }
 
